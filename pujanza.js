@@ -9,4 +9,15 @@ jQuery(function($){
         // console.log(indexToChange.text());
     }
 });
+
+//for changing correctly specific pages
+jQuery(function($){ ls
+    console.log(top.location.pathname);
+    if (top.location.pathname === '/en/lorem-ipsum/') {
+        console.log('this is the page');
+        var indexToChange = $('div#ez-toc-container p.ez-toc-title ');
+        indexToChange.text("Index");
+        // console.log(indexToChange.text());
+    }
+});
     
